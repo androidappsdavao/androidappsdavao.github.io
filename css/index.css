@@ -1,0 +1,122 @@
+#banner_divider {
+	margin-top:15px;
+	margin-bottom:5px;
+	width:490px;
+	height:2px;
+	background-color:#8f8f8f;
+}
+
+
+#information_icon {
+	font-size:32px;
+	color:#c9c9c9;
+}
+
+.information_text {
+	color: #c9c9c9;
+	font-size:22;
+}
+
+#information_container{
+	margin-top:90px;
+}
+
+#signature_photo{
+	height:140px;
+	width:210px;
+}
+
+.information {
+	margin-top:15px;
+	display: flex;
+	align-items: center;
+	background-color:;
+}
+
+.information_icon_text_spacer {
+	width:17px;
+}
+	
+	
+	#bannerContainer {
+		margin-top:60px;
+		margin-left:80px;
+		
+	}
+		#banner {
+			font-family:'Lexend Deca';
+			font-weight:;
+			font-size:72;
+			color:#ededed;
+		}
+		
+		
+		#subBanner {
+			font-family:'Lexend Deca';
+			color:#ededed;
+			font-size:34;
+		}
+	
+	#profileLinkContainer {
+		margin:50 auto 0 auto;
+	}
+	
+	
+	.profileLinks {
+		margin:0px 10;
+		padding:5 10;
+		border:1px solid black;
+		display:inline-block;
+		border-radius:0px;
+	}
+	.profileLinks:hover {
+		cursor:default;
+		border:1px solid black;
+		background-color:red;
+	}
+	
+	
+	#downloadBioContainer {
+		margin:20 auto 0 auto;
+	}
+	
+	.downloadResumeContainer {
+		margin:0px 10;
+		display:inline-block;
+		padding:5 10;
+		border:1px solid black;
+		border-radius:8px;
+		
+	}
+	
+	.downloadResumeContainer:hover {
+		cursor:default;
+		border:1px solid black;
+		background-color:red;
+	}
+	
+	
+	
+	#bioContainer {
+		background-color:;
+		heigth:400px;
+		width:100%;
+		text-align:center;
+	}
+	
+		#bio {
+			padding-left:20px;
+			padding-right:60;
+			display:inline-block;
+			border-left:2px solid black;
+			background-color:gray;
+		}
+	
+	
+	
+		#portfolioBanner {
+			font-family:'Noto Sans', serif;
+			font-weight:bold;
+			font-size:45;
+			margin:50px auto auto auto;
+		}

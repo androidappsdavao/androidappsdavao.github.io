@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+html {
+    background-color: #373737;
+	font-family:'Lexend Deca';
+}
+
+body, html {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 80;
+    margin-right: 80;
+    padding: 0;
+
+    color: black;
+    font-family: 'Noto Sans', serif;
+    
+
+}
