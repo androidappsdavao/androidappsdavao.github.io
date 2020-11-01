@@ -1,10 +1,4 @@
-#banner_divider {
-	margin-top:15px;
-	margin-bottom:5px;
-	width:490px;
-	height:2px;
-	background-color:#8f8f8f;
-}
+
 
 
 #information_icon {
@@ -38,24 +32,6 @@
 }
 	
 	
-	#bannerContainer {
-		margin-top:60px;
-		margin-left:20px;
-		
-	}
-		#banner {
-			font-family:'Lexend Deca';
-			/* font-weight:; */
-			font-size:72;
-			color:#ededed;
-		}
-		
-		
-		#subBanner {
-			font-family:'Lexend Deca';
-			color:#ededed;
-			font-size:34;
-		}
 	
 	#profileLinkContainer {
 		margin:50 auto 0 auto;

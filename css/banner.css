@@ -1,0 +1,33 @@
+#bannerContainer {
+
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+
+    text-align: center;
+    
+    
+}
+    #bannerTitle {
+        font-size:65;
+    }
+    
+    
+    #banner_divider {
+        margin-top:25px;
+        margin-bottom:15px;
+        margin-left:auto;
+        margin-right:auto;
+        width:490px;
+        height:2px;
+        background-color:#8f8f8f;
+        opacity: .25;
+    }
+
+    #bannerSubTitle {
+
+        /* margin-top: 30; */
+
+        font-family:'Work Sans';
+        font-size:30;
+    }
