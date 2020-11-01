@@ -30,7 +30,7 @@
 	margin-top:15px;
 	display: flex;
 	align-items: center;
-	background-color:;
+	/* background-color:; */
 }
 
 .information_icon_text_spacer {
@@ -40,12 +40,12 @@
 	
 	#bannerContainer {
 		margin-top:60px;
-		margin-left:80px;
+		margin-left:20px;
 		
 	}
 		#banner {
 			font-family:'Lexend Deca';
-			font-weight:;
+			/* font-weight:; */
 			font-size:72;
 			color:#ededed;
 		}
@@ -69,6 +69,7 @@
 		display:inline-block;
 		border-radius:0px;
 	}
+
 	.profileLinks:hover {
 		cursor:default;
 		border:1px solid black;
@@ -98,8 +99,8 @@
 	
 	
 	#bioContainer {
-		background-color:;
-		heigth:400px;
+		/* background-color:; */
+		height:400px;
 		width:100%;
 		text-align:center;
 	}

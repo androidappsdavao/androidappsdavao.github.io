@@ -1,79 +1,48 @@
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="css/index.css">
-		<link type="text/css" rel="stylesheet" href="css/theme.css">
 		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link type="text/css" rel="stylesheet" href="css/index.css">
+		<link type="text/css" rel="stylesheet" href="css/theme.css">	
+		<link type="text/css" rel="stylesheet" href="css/tabs.css">		
+		
+		<script src="js/tabs.js"></script>
 	</head>
+
+
 
 	<body>
 		
 		
 		<div id="bannerContainer">
-		
-			<div id="banner">John Raymond Castel</div>
-			
+			<div id="banner">Android Apps Davao</div>
 			<div id="banner_divider"></div>
-			
-			<div id="subBanner">Programmer / Developer</div>
-			
-			<!--
-			
-			<div id="profileLinkContainer">
-				<div class="profileLinks">Github</div>
-				<div class="profileLinks">LinkedIn</div>
-				<div class="profileLinks">Fiverr</div>
-				<div class="profileLinks">Upwork</div>
-				<div class="profileLinks">Freelancer</div>
-			</div>
-			
-			-->
-			
-			
-			<!-- <img id="signature_photo" src="images/sign.png"></img> -->
-			
-			
-			<div id="information_container">
-			
-				<div class="information">
-					<i id="information_icon" class="material-icons">location_on</i>
-					<div class="information_icon_text_spacer"></div>
-					<span class="information_text">Plar Village, Apokon Road, Tagum City</span>
-				</div>
-				
-				<div class="information">
-					<i id="information_icon" class="material-icons">location_on</i>
-					<div class="information_icon_text_spacer"></div>
-					<span class="information_text">Jereeza Subd., Bajada, Davao City</span>
-				</div>
-				
-				<div class="information">
-					<i id="information_icon" class="material-icons">alternate_email</i>
-					<div class="information_icon_text_spacer"></div>
-					<span class="information_text">jlcastel@up.edu.ph</span>
-				</div>
-				
-				<div class="information">
-					<i id="information_icon" class="material-icons">language</i>
-					<div class="information_icon_text_spacer"></div>
-					<span class="information_text">jrlcastel.github.io/portfolio</span>
-				</div>
-				
-				<div class="information">
-					<i id="information_icon" class="material-icons">call</i>
-					<div class="information_icon_text_spacer"></div>
-					<span class="information_text">0912 261 0045</span>
-				</div>
-				
-				<div class="information">
-					<i id="information_icon" class="material-icons">school</i>
-					<div class="information_icon_text_spacer"></div>
-					<span class="information_text">University of the Philippines</span>
-				</div>
-			</div>
-			
-			
+			<div id="subBanner">Professional, fast, & well documented android apps.</div>
+		</div>	
+
+
+		<div class="tab">
+			<button class="tablinks" onclick="openTab('London')">London</button>
+			<button class="tablinks" onclick="openTab('Paris')">Paris</button>
+			<button class="tablinks" onclick="openTab('Tokyo')">Tokyo</button>
+		  </div>
+		  
+		<!-- Tab content -->
+		<div id="London" class="tabContent">
+			<h3>London</h3>
+			<p>London is the capital city of England.</p>
 		</div>
 		
+		<div id="Paris" class="tabContent">
+			<h3>Paris</h3>
+			<p>Paris is the capital of France.</p>
+		</div>
+		
+		<div id="Tokyo" class="tabContent">
+			<h3>Tokyo</h3>
+			<p>Tokyo is the capital of Japan.</p>
+		</div>
 		
 	</body>
 
